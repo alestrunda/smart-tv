@@ -1,0 +1,32 @@
+{
+  "name": "smart-tv",
+  "version": "1.0.0",
+  "description": "Simple web app for smart TVs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleš Trunda",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.7",
+    "classnames": "^2.2.6",
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.6.2",
+    "@types/mithril": "^2.0.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "file-loader": "^4.2.0",
+    "ts-loader": "^6.1.2",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
