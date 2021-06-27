@@ -1,8 +1,8 @@
 # Smart-tv
 
-Simple web app for smart TVs. Build on mithril.js.
+Simple web app for smart TVs. Build on `mithril.js`.
 
-Made as job interview assignment.
+Made as a job interview assignment.
 
 ## Scripts
 
